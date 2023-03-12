@@ -1,0 +1,13 @@
+.navWrap{
+    display: flex;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    gap: 40px;
+    font-size: 30px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#sidebar active {
+  color: black;
+}

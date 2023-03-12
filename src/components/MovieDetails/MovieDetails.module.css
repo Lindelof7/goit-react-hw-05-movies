@@ -1,0 +1,34 @@
+.movieDetailsWrap{
+    margin-left: 10px;
+    display: flex;
+}
+.genresList{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding-left: 0px;
+}
+
+.movieDetailsTextWrap{
+    margin-left: 20px;
+}
+
+.addInfo{
+  margin-left: 10px;
+}
+
+.addInfoWrap{
+    margin-top: 30px;
+    border: 2px solid black;
+}
+
+.goBackBtn{
+    color: blue;
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-right: 0px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+}
