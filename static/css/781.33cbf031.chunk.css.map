@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/781.33cbf031.chunk.css","mappings":"AAAA,uBACI,gBACJ,CAEA,uBACI,aAAa,CACb,kBACJ","sources":["components/Home/Home.module.css"],"sourcesContent":[".homeTitle{\n    margin-left: 30px;\n}\n\n.MovieItem{\n    display:block;\n    margin-bottom: 10px;\n}"],"names":[],"sourceRoot":""}
