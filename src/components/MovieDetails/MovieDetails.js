@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { Link, Outlet, useLocation, useParams } from 'react-router-dom';
 import { Audio } from 'react-loader-spinner';
 import nextId from "react-id-generator";
+import MovieNotFound from '../Photos/MovieNotFound.jpg'
 import css from './MovieDetails.module.css'
 
 const MovieDetails = () => {
@@ -45,8 +46,8 @@ const MovieDetails = () => {
             </Link>
         </div>
         <div className={(css.movieDetailsWrap)}>
-            <img src={`https://image.tmdb.org/t/p/original${movie.poster_path}`}
-                className={(css.img)} alt="123" width="270px" />
+            {movie.poster_path ? <img src={`https://image.tmdb.org/t/p/original${movie.poster_path}`}
+                className={(css.img)} alt="Portrait" width="370px" /> : <img src={MovieNotFound} alt="No Portrait" width="370px" />}
             <div className={(css.movieDetailsTextWrap)}>
                 <h1>{movie.original_title}</h1>
                 <p>User score: {Math.round(movie.vote_average * 10)}%</p>
